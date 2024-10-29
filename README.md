@@ -36,9 +36,15 @@ Before you begin, ensure you have the following installed:
 
 ### Clone the Repository
 
-```bash
-git clone https://github.com/wassim-55/MERN-Realtime-Chat-App.git
-cd MERN-Realtime-Chat-App
+Clone the repository to your local machine and navigate into the project folder.
+
+### Install Server Dependencies
+
+Install the necessary server dependencies.
+
+### Install Client Dependencies (If Client is Separate)
+
+If the client is in a separate directory, navigate there and install the dependencies.
 
 ## Environment Variables
 
@@ -48,14 +54,16 @@ Create a `.env` file in the root directory and add the following environment var
 JWT_SECRET=your_jwt_secret
 MONGODB_URI=your_mongodb_uri
 
+
 ## Running the Application
 
 1. **Run the Server**
 
-Start the server by running:
+Start the server by executing the command for your server file.
 
-```bash
-node server.js
+2. **Run the Frontend (if separate)**
+
+If the frontend is located in a separate client directory, navigate there and start the client.
 
 ## API Endpoints
 
