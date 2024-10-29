@@ -48,11 +48,7 @@ If the client is in a separate directory, navigate there and install the depende
 
 ## Environment Variables
 
-Create a `.env` file in the root directory and add the following environment variables:
-
-```env
-JWT_SECRET=your_jwt_secret
-MONGODB_URI=your_mongodb_uri
+Create a `.env` file in the root directory and add environment variables
 
 
 ## Running the Application
