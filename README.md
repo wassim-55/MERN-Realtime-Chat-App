@@ -7,6 +7,7 @@ A full-stack, real-time chat application built with the MERN stack (MongoDB, Exp
 - [Features](#features)
 - [Prerequisites](#prerequisites)
 - [Installation](#installation)
+- [Environment Variables](#environment-variables)
 - [Running the Application](#running-the-application)
 - [API Endpoints](#api-endpoints)
 - [Usage Instructions](#usage-instructions)
@@ -35,20 +36,29 @@ Before you begin, ensure you have the following installed:
 
 ### Clone the Repository
 
-Clone the repository from GitHub and navigate to the project directory.
+Clone the repository to your local machine and navigate into the project folder.
 
 ### Install Server Dependencies
 
-Install the necessary dependencies for the server.
+Install the necessary server dependencies.
 
 ### Install Client Dependencies (If Client is Separate)
 
-Navigate to the client directory (if applicable) and install the necessary dependencies.
+If the client is in a separate directory, navigate there and install the dependencies.
+
+## Environment Variables
+
+Create a `.env` file in the root directory and add  environment variables
 
 ## Running the Application
 
-1. Run the Server: Start the server by running the appropriate command.
-2. Run the Frontend (if separate): If the frontend is located in a separate client directory, navigate there and start the client.
+1. **Run the Server**
+
+Start the server by executing the command for your server file.
+
+2. **Run the Frontend (if separate)**
+
+If the frontend is located in a separate client directory, navigate there and start the client.
 
 ## API Endpoints
 
@@ -58,10 +68,30 @@ Navigate to the client directory (if applicable) and install the necessary depen
 
 ## Usage Instructions
 
-- Register or log in to access the chat functionality.
-- Select a user to initiate a conversation.
-- Use the message input to send text or attach files.
-- Monitor the online/offline status of contacts in real-time.
+1. Register or log in to access the chat functionality.
+2. Select a user to initiate a conversation.
+3. Use the message input to send text or attach files.
+4. Monitor the online/offline status of contacts in real-time.
+
+## Future Improvements
+
+Consider adding the following features:
+
+- **Cloud File Storage**: Integrate with AWS S3 or other services for cloud file storage.
+- **Group Chat**: Extend functionality to support group messaging.
+- **Typing Indicators**: Show when users are typing.
+- **Read Receipts**: Indicate if a message has been read.
+
+## Contributing
+
+Contributions are welcome! To contribute:
+
+1. Fork the repository.
+2. Create a new branch (e.g., `git checkout -b feature-branch`).
+3. Make your changes.
+4. Push to the branch (e.g., `git push origin feature-branch`).
+5. Open a pull request.
+
 ## Project Structure
 
 ```plaintext
@@ -95,31 +125,10 @@ Navigate to the client directory (if applicable) and install the necessary depen
 │       ├── index.css            # Stylesheet for the application
 │       └── main.jsx             # Main entry point for React
 └── README.md
-                                               
+```
 
 
+## License
 
-
-## Future Improvements
-
-                                                Consider adding the following features:
-
-                                                - Cloud File Storage: Integrate with AWS S3 or other services for cloud file storage.
-                                                - Group Chat: Extend functionality to support group messaging.
-                                                - Typing Indicators: Show when users are typing.
-                                                - Read Receipts: Indicate if a message has been read.
-
-                                                ## Contributing
-
-                                                Contributions are welcome! To contribute:
-
-                                                - Fork the repository.
-                                                - Create a new branch (feature-branch).
-                                                - Make your changes.
-                                                - Push to the branch.
-                                                - Open a pull request.
-
-                                                ## License
-
-                                                This project is licensed under the MIT License.
+This project is licensed under the MIT License.
 
