@@ -62,42 +62,45 @@ Navigate to the client directory (if applicable) and install the necessary depen
 - Select a user to initiate a conversation.
 - Use the message input to send text or attach files.
 - Monitor the online/offline status of contacts in real-time.
-
 ## Project Structure
 
-api
-├── controllers
-│   ├── Auth.js              # Handles authentication logic
-│   ├── Login.js             # Login functionality
-│   ├── Logout.js            # Logout functionality
-│   ├── Message.js           # Messaging logic
-│   ├── Profile.js           # Profile management
-│   ├── User.js              # User-related logic
-├── routes
-│   ├── AuthRoutes.js        # Authentication routes
-│   ├── MessageRoutes.js     # Messaging routes
-├── models
-│   ├── User.js              # User schema
-│   ├── Message.js           # Message schema
-└── utils
-    ├── websocketServer.js    # WebSocket server
-        └── uploads              # Uploads directory for files
+```plaintext
+├── api
+│   ├── controllers
+│   │   ├── Auth.js             # Handles authentication logic
+│   │   ├── Login.js            # Handles user login logic
+│   │   ├── Logout.js           # Handles user logout logic
+│   │   ├── Message.js          # Manages messaging logic
+│   │   ├── Profile.js          # Manages user profile data
+│   │   └── User.js             # Manages user data
+│   ├── models
+│   │   ├── User.js              # User schema
+│   │   └── Message.js           # Message schema
+│   ├── routes
+│   │   └── AuthRoutes.js        # Authentication routes
+│   └── utils
+│       ├── websocketServer.js    # WebSocket server implementation
+│       └── uploads               # Directory for uploaded files
+├── client
+│   ├── public                   # Static assets
+│   └── src
+│       ├── App.jsx              # Main app file
+│       ├── Avatar.jsx           # User avatar component
+│       ├── Chat.jsx             # Chat interface component
+│       ├── Contact.jsx          # Contact list component
+│       ├── Logo.jsx             # Logo component
+│       ├── RegisterandLoginForm.jsx # Registration and login form
+│       ├── Routes.jsx           # Application routes
+│       ├── UserContext.jsx      # User context for global state management
+│       ├── index.css            # Stylesheet for the application
+│       └── main.jsx             # Main entry point for React
+└── README.md
+```                                               
 
-        client
-        ├── public                   # Static assets
-        └── src
-            ├── App.jsx              # Main app file
-                ├── Avatar.jsx           # Avatar component
-                    ├── Chat.jsx             # Chat window component
-                        ├── Contact.jsx          # Contact list component
-                            ├── Logo.jsx             # Logo component
-                                ├── RegisterandLoginForm.jsx # Registration and Login form
-                                    ├── Routes.jsx           # App routing
-                                        ├── UserContext.jsx      # Context API for user state management
-                                            ├── index.css            # Stylesheet
-                                                └── main.jsx             # Entry point for React
 
-                                                ## Future Improvements
+
+
+                                        ## Future Improvements
 
                                                 Consider adding the following features:
 
