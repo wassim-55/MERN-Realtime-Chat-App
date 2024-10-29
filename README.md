@@ -95,12 +95,12 @@ Navigate to the client directory (if applicable) and install the necessary depen
 │       ├── index.css            # Stylesheet for the application
 │       └── main.jsx             # Main entry point for React
 └── README.md
-```                                               
+                                               
 
 
 
 
-                                        ## Future Improvements
+## Future Improvements
 
                                                 Consider adding the following features:
 
