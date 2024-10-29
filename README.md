@@ -76,7 +76,6 @@ If the frontend is located in a separate client directory, navigate there and st
 
 ## Project Structure
 
-```plaintext
 ├── api
 │   ├── controllers
 │   │   ├── Auth.js             # Handles authentication logic
