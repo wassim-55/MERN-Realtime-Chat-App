@@ -40,8 +40,6 @@ Before you begin, ensure you have the following installed:
 git clone https://github.com/wassim-55/MERN-Realtime-Chat-App.git
 cd MERN-Realtime-Chat-App
 
-npm install
-
 ## Environment Variables
 
 Create a `.env` file in the root directory and add the following environment variables:
